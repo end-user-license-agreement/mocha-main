@@ -1,10 +1,7 @@
 source: https://github.com/facebook/zstd
-
 dependencies:
 - '@toolchain'
-
 artifacts: []
-
 beta_artifacts:
 - - lib zstd
   - - lib/decompress/huf_decompress_amd64.S
