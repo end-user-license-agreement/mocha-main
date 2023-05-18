@@ -1,5 +1,6 @@
-source: https://github.com/sharkdp/fd
-dependencies:
-- '@rust'
-artifacts:
-- bin fd
+sources:
+ - https://github.com/sharkdp/fd
+parts:
+- uses: rust
+  artifacts:
+  - fd

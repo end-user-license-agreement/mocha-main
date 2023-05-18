@@ -1,8 +1,9 @@
-source: https://github.com/ducaale/xh
-dependencies:
-- '@rust'
-features:
-- rustls
-artifacts:
-- bin xh
-- sym xhs -> xh
+sources:
+ - https://github.com/ducaale/xh
+parts:
+- uses: rust
+  features:
+  - rustls
+  artifacts:
+  - xh
+  - xhs -> xh

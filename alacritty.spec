@@ -1,7 +1,8 @@
-source: https://github.com/alacritty/alacritty
-dependencies:
-- '@rust'
-features:
-- wayland
-artifacts:
-- bin alacritty
+sources:
+ - https://github.com/alacritty/alacritty
+parts:
+- uses: rust
+  features:
+  - wayland
+  artifacts:
+  - alacritty

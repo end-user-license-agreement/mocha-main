@@ -1,5 +1,6 @@
-source: https://github.com/ogham/exa
-dependencies:
-- '@rust'
-artifacts:
-- bin exa
+sources:
+ - https://github.com/ogham/exa
+parts:
+- uses: rust
+  artifacts:
+  - exa

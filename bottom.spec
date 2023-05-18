@@ -1,5 +1,6 @@
-source: https://github.com/ClementTsang/bottom
-dependencies:
-- '@rust'
-artifacts:
-- bin btm
+sources:
+ - https://github.com/ClementTsang/bottom
+parts:
+- uses: rust
+  artifacts:
+  - btm
